@@ -16,3 +16,5 @@ type ServerOptions struct {
 	pluginNames     []string // plugin name
 	interceptors    []interceptor.ServerInterceptor
 }
+
+type ServerOption func(*ServerOptions)
